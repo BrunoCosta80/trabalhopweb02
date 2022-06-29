@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World</title>
+</head>
+<body>
+ 
+<form method="get"action ="armas/salvar"> 
+
+Nome: <input type="text" name = "nome"/> </br>
+Calibre: <input type="text" name = "calibre"/> </br>
+Dano: <input type="text" name="dano"/> </br>
+Alcance: <input type="text"name="alcance"/> </br>
+
+
+
+ <input type="submit" value = "Cadastrar"/> 
+
+</form> 
+ 
+ 
+</body>
+</html>

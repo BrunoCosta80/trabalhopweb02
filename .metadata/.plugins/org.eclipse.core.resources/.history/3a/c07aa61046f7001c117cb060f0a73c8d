@@ -1,0 +1,11 @@
+package com.ifce.br.service;
+
+import org.springframework.stereotype.Service;
+
+public class ArmaService {
+	@Service
+	public void cadastrarArma(Arma arma) {
+		
+	}
+
+}

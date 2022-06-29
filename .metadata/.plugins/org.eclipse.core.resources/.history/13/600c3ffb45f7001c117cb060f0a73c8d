@@ -1,0 +1,9 @@
+package com.ifce.br.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ifce.br.model.Arma;
+
+public interface ArmasRepository extends JpaRepository <Arma, Long>{
+	
+}

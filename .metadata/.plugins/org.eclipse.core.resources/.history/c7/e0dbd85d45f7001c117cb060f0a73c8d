@@ -1,0 +1,5 @@
+package com.ifce.br.repository;
+
+public class ArmaRepository {
+
+}

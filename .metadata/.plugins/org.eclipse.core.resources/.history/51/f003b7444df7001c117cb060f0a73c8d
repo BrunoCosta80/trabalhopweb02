@@ -1,0 +1,53 @@
+package com.ifce.br.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Arma {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+	private String nome;
+	private String calibre;
+	private String dano;
+	private String alcance;
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return Nome;
+	}
+	public void setNome(String nome) {
+		Nome = nome;
+	}
+	public String getCalibre() {
+		return Calibre;
+	}
+	public void setCalibre(String calibre) {
+		Calibre = calibre;
+	}
+	public String getDano() {
+		return Dano;
+	}
+	public void setDano(String dano) {
+		Dano = dano;
+	}
+	public String getAlcance() {
+		return Alcance;
+	}
+	public void setAlcance(String alcance) {
+		Alcance = alcance;
+	}
+	
+	
+	
+	
+
+}

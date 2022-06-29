@@ -1,0 +1,14 @@
+package com.ifce.br.service;
+
+import org.springframework.stereotype.Service;
+
+
+@Service
+public class ArmaService {
+	@Autowired
+	private ArmaRepository armaRepo;
+	public void cadastrarArma(Arma arma) {
+		armaRepo.save(armas);
+	}
+
+}
